@@ -24,7 +24,7 @@ Abrimos CMD y comprobamos la instalación con: ``` docker versión ``` o ```dock
 
 Creamos un archivo ‘Dockerfile’ (un archivo Docker que tendrá las instrucciones necesarias para crear el entorno)
 
-![Dockerfile](./Images/port8080.png)
+![dockerfile](./images/dockerbuild.PNG)
 
 Una vez que tu código esté listo y el Dockerfile está escrito, todo lo que tienes que hacer es crear tu imagen para contener tu aplicación: docker build -t "nombre:tag"
 
