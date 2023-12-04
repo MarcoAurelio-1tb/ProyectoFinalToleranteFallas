@@ -28,30 +28,30 @@ Creamos un archivo ‘Dockerfile’ (un archivo Docker que tendrá las instrucci
 
 Una vez que tu código esté listo y el Dockerfile está escrito, todo lo que tienes que hacer es crear tu imagen para contener tu aplicación: docker build -t "nombre:tag"
 
-En nuestro caso: docker build -t html-server-image:v1
+En nuestro caso: docker build -t password-generator:v1
 
-![construccion](./Images/docker_build.png)
+![construccion](./images/dockerbuild.PNG)
 
 Mostramos las imagenes de docker con: docker images
 
-![imagenes](./Images/look_images.png)
+![imagenes](./images/lookimages.PNG)
 
-Creada la imagen realizamos el lanzamiento: docker run -d -p 80:80 html-server-image:v1
+Creada la imagen realizamos el lanzamiento: docker run -d -p 80:80 password-generator:v1
 
-![despliegue](./Images/port8080.png)
+![despliegue](./images/port8080.PNG)
 
 En Docker desktop podemos realizar el despliegue de la siguiente manera:
 1. Seleccionamos la imagen creada y la corremos
 
-![imgaendesktop](./images/imagendesktop.png)
+![imgaendesktop](./images/runningdocker.PNG)
 
 2. Seleccionamos el contenedor con la imagen de que creamos y damos click en el puerto 80:80
 
-![contenedordesktop](./images/contenedordesktop.png)
+![contenedordesktop](./images/runningdocker.PNG)
 
 Se habre el navegador web por defecto y nos aparece la aplicacion:
 
-![puertos](./images/puertos.png)
+![aplicacion](./images/puertos.png)
 
 ### ⭕🖥 OpenShift 🖥⭕
 Ingresamos a la página web de RedHat, creamos un perfil e ingresamos para usar DevSandBox.
