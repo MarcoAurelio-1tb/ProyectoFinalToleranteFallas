@@ -1,7 +1,7 @@
 # Proyecto - Computación Tolerante a Fallas 
 En este repositorio se encuentra el proyecto final para la materia Computacion tolerante a fallas Profesor: Michel Emanuel Lopez Franco.
 
-![Aplicacion web que genera contraseñas]()
+![Aplicacion web que genera contraseñas](./images/app.PNG)
 
 
 ## Descripción
@@ -24,7 +24,7 @@ Abrimos CMD y comprobamos la instalación con: ``` docker versión ``` o ```dock
 
 Creamos un archivo ‘Dockerfile’ (un archivo Docker que tendrá las instrucciones necesarias para crear el entorno)
 
-![dockerfile](./images/dockerbuild.PNG)
+![dockerfile](./images/dockerfile.PNG)
 
 Una vez que tu código esté listo y el Dockerfile está escrito, todo lo que tienes que hacer es crear tu imagen para contener tu aplicación: docker build -t "nombre:tag"
 
@@ -51,7 +51,7 @@ En Docker desktop podemos realizar el despliegue de la siguiente manera:
 
 Se habre el navegador web por defecto y nos aparece la aplicacion:
 
-![aplicacion](./images/puertos.png)
+![aplicacion](./images/openshiftcreate.PNG)
 
 ### ⭕🖥 OpenShift 🖥⭕
 Ingresamos a la página web de RedHat, creamos un perfil e ingresamos para usar DevSandBox.
